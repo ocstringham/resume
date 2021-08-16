@@ -1,0 +1,21 @@
+
+
+
+:root{
+  --sidebar-width: 13rem; /* side bar width */
+  --sidebar-background-color: #CEE5EE;
+  --decorator-border: 2px solid #0B7FAB; /* change color and thickness of timeline */
+
+}
+
+.decorator::after{
+  background-color: #0B7FAB; /* change color timeline dots */
+
+}
+
+
+/* Define the font family here */
+body{
+  font-family: "Roboto", sans-serif;
+
+}

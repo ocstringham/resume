@@ -1,0 +1,181 @@
+---
+title: "Oliver Stringham's resume"
+author: Oliver C. Stringham
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+    css:
+      - override.css
+      - resume # default
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+---
+
+<!-- Aside Section -->
+
+# Aside
+
+![Oliver C. Stringham](IMG_7351c2.jpg){width="70%"}
+
+
+<!-- Contact Info -->
+
+## Contact Info {#contact}
+
+-   <i class="fa fa-envelope"></i> [oliverstringham\@gmail.com](mailto:oliverstringham@gmail.com){.email}
+-   <i class="fa fa-github"></i> [github.com/ocstringham](hhttps://github.com/ocstringham) <!-- - <i class="fa fa-phone"></i> +1 000-000-0000 -->
+-   For more information, please contact me via email.
+
+<!-- Skills -->
+
+## Skills {#skills}
+
+-   Experienced in statistical analysis, statistical learning models, and optimization methods.
+
+-   Full experience with next generation sequencing data analysis.
+
+-   Highly skilled in R, Bash, Perl, Python, LaTeX
+
+
+<!-- Disclaimer -->
+
+## Disclaimer {#disclaimer}
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+
+
+<!-- Main Section -->
+
+
+# Main
+
+## Oliver C. Stringham {#title}
+
+### Data Scientist: GIS, SQL Databases, Machine Learning/Statistics
+
+Small description
+
+
+
+<!-- Professional Experience -->
+
+
+## Professional Experience {data-icon="suitcase"}
+
+### Postdoctoral Research Associate
+
+The University of Adelaide
+
+Adelaide, Australia
+
+2019 - present
+
+::: {.concise}
+-   Applied data science principles to researching wildlife trade
+-   Coded over 80 webscrapers to collect data on wildlife trade
+-   Created and maintained MySQL database of >2 million records for online wildlife trade
+-   Supervised PhD students
+:::
+
+### PhD Researcher & Teaching Assistant
+
+Rutgers University
+
+New Jersey, USA
+
+2015 - 2018
+
+- Researched
+- Taught
+
+### GIS Specialist
+
+New Jersey Depart. of Fish & Wildlife
+
+New Jersey, USA
+
+2015
+
+::: {.concise}
+- Performed spatial analyses for endangered species management programs.
+- Used python to automate GIS processes previously done manually. 
+:::
+
+### GIS Specialist
+
+Harbor & Estuary Program, Hudson River Foundation
+
+New York, USA
+
+2015
+
+- Performed spatial analysis of public access to waterways in the New York/New Jersey Metro area.
+
+
+
+<!-- Education -->
+
+## Education {data-icon="graduation-cap" data-concise="true"}
+
+### Rutgers University
+
+PhD in Ecology & Evolution
+
+New Jersey, USA
+
+2018
+
+
+### Rutgers University
+
+BS in Environmental Science <br>
+<!-- BS in Ecology, Evolution, & Natural Resources <br> -->
+Certificate in GIS <i class="fa fa-globe"></i>
+
+New Jersey, USA
+
+2014
+
+
+
+<!-- Publications -->
+
+## Selected Publications {data-icon="newspaper"}
+
+### Text classification to streamline online wildlife trade analyses
+
+PLOS ONE https://doi.org/10.1371/journal.pone.0254007
+
+N/A
+
+2021
+
+**Stringham O**, Moncayo S, Hill K, Toomes A, Ross J, Mitchell L, Cassey P
+
+<!-- ### Reptile smuggling is predicted by trends in the legal exotic pet trade -->
+
+<!-- Conservation Letters -->
+
+<!-- N/A -->
+
+<!-- 2021 -->
+
+<!-- **Stringham O**, García-Díaz P, Toomes A, Ross J, Mitchell L, Cassey P -->
+
+### A guide to using the internet to study the wildlife trade
+
+Conservation Biology https://doi.org/10.1111/cobi.13675
+
+N/A
+
+2020
+
+**Stringham O**, Toomes A, Kanishka A, Heinrich S, Ross J, Mitchell L, Cassey P
+
+
