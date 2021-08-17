@@ -1,4 +1,4 @@
----
+--- 
 title: "Oliver Stringham's resume"
 author: Oliver C. Stringham
 date: "`r Sys.Date()`"
@@ -17,7 +17,10 @@ output:
 
 # Aside
 
-![Oliver C. Stringham](IMG_7351c2.jpg){width="70%"}
+::: profile-pic
+![Oliver C. Stringham](IMG_7351c2.jpg){width=85%;}
+:::
+
 
 
 <!-- Contact Info -->
@@ -57,9 +60,10 @@ Last updated on `r Sys.Date()`.
 
 ## Oliver C. Stringham {#title}
 
-### Data Scientist: GIS, SQL Databases, Machine Learning/Statistics
+### Data Scientist & Scientific Researcher 
 
-Small description
+GIS, SQL Databases, Machine Learning/Statistics
+R, python
 
 
 
@@ -94,7 +98,7 @@ New Jersey, USA
 - Researched
 - Taught
 
-### GIS Specialist
+### GIS Research Assistant
 
 New Jersey Depart. of Fish & Wildlife
 
@@ -107,7 +111,7 @@ New Jersey, USA
 - Used python to automate GIS processes previously done manually. 
 :::
 
-### GIS Specialist
+### GIS Research Assistant
 
 Harbor & Estuary Program, Hudson River Foundation
 
@@ -136,7 +140,7 @@ New Jersey, USA
 
 BS in Environmental Science <br>
 <!-- BS in Ecology, Evolution, & Natural Resources <br> -->
-Certificate in GIS <i class="fa fa-globe"></i>
+Certificate in GIS <i class="fa fa-globe-americas"></i>
 
 New Jersey, USA
 
