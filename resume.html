@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="author" content="Oliver C. Stringham" />
-    <meta name="date" content="2021-08-17" />
+    <meta name="date" content="2021-08-26" />
     <title>Oliver Stringham’s resume</title>
 
     
@@ -24,6 +24,11 @@
   </head>
   <body>
 
+<!-- load outside plots -->
+<!-- # ```{r message=TRUE, warning=TRUE, include=FALSE} -->
+<!-- # library(ggplot2) -->
+<!-- # skills_bar = readRDS('skills_bar.rds') -->
+<!-- # ``` -->
 <!-- Aside Section -->
 <div id="aside" class="section level1">
 <h1>Aside</h1>
@@ -32,27 +37,35 @@
 </div>
 <!-- Contact Info -->
 <div id="contact" class="section level2">
-<h2>Contact Info</h2>
+<h2></h2>
+<hr style="height:1px;border-width:0;color:gray;background-color:gray">
 <ul>
 <li><i class="fa fa-envelope"></i> <a href="mailto:oliverstringham@gmail.com" class="email">oliverstringham@gmail.com</a></li>
-<li><i class="fa fa-github"></i> <a href="hhttps://github.com/ocstringham">github.com/ocstringham</a> <!-- - <i class="fa fa-phone"></i> +1 000-000-0000 --></li>
+<li><i class="fas fa-link"></i> <a href="https://oliverstringham.com/" class="website">oliverstringham.com</a></li>
+<li><i class="ai ai-google-scholar-square ai-1x"></i>
+<a href="https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&amp;hl=en" class="google-scholar">Google Scholar</a>
+<!-- -   <i class="fa fa-github"></i> [GitHub](https://github.com/ocstringham){.github} -->
+<!-- - <i class="fa fa-phone"></i> +1 000-000-0000 --></li>
 <li>For more information, please contact me via email.</li>
 </ul>
 <!-- Skills -->
 </div>
+<div id="languages" class="section level2">
+<h2>Languages</h2>
+<p><img src="skills_bar.png" alt="Languages" /></p>
+<!--  ```{r echo=FALSE} -->
+<!--  skills_bar -->
+<!--  ``` -->
+</div>
 <div id="skills" class="section level2">
 <h2>Skills</h2>
-<ul>
-<li><p>Experienced in statistical analysis, statistical learning models, and optimization methods.</p></li>
-<li><p>Full experience with next generation sequencing data analysis.</p></li>
-<li><p>Highly skilled in R, Bash, Perl, Python, LaTeX</p></li>
-</ul>
+<p><img src="skills_bar2.png" alt="Skills" /></p>
 <!-- Disclaimer -->
 </div>
 <div id="disclaimer" class="section level2">
 <h2>Disclaimer</h2>
-<p>This resume was made with the R package <a href="https://github.com/rstudio/pagedown"><strong>pagedown</strong></a>.</p>
-<p>Last updated on 2021-08-17.</p>
+<!-- This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown). -->
+<p>Last updated on 2021-08-26.</p>
 <!-- Main Section -->
 </div>
 </div>
@@ -60,9 +73,9 @@
 <h1>Main</h1>
 <div id="title" class="section level2">
 <h2>Oliver C. Stringham</h2>
-<div id="data-scientist-scientific-researcher" class="section level3">
-<h3>Data Scientist &amp; Scientific Researcher</h3>
-<p>GIS, SQL Databases, Machine Learning/Statistics
+<div id="phd-scientific-researcher-data-scientist" class="section level3">
+<h3>PhD, Scientific Researcher &amp; Data Scientist</h3>
+<p>GIS, Machine Learning/Statistics, SQL Databases,
 R, python</p>
 <!-- Professional Experience -->
 </div>
@@ -89,8 +102,8 @@ R, python</p>
 <p>New Jersey, USA</p>
 <p>2015 - 2018</p>
 <ul>
-<li>Researched</li>
-<li>Taught</li>
+<li>Researched the online pet trade of reptiles and their invasion risk</li>
+<li>Taught courses: General Biology, Ornithology, Plant Ecology</li>
 </ul>
 </div>
 <div id="gis-research-assistant" class="section level3">
@@ -100,7 +113,7 @@ R, python</p>
 <p>2015</p>
 <div class="concise">
 <ul>
-<li>Performed spatial analyses for endangered species management programs.</li>
+<li>Performed spatial analyses for endangered species programs.</li>
 <li>Used python to automate GIS processes previously done manually.</li>
 </ul>
 </div>
@@ -111,7 +124,7 @@ R, python</p>
 <p>New York, USA</p>
 <p>2015</p>
 <ul>
-<li>Performed spatial analysis of public access to waterways in the New York/New Jersey Metro area.</li>
+<li>Performed spatial analysis of public access to waterways around NYC/NJ.</li>
 </ul>
 <!-- Education -->
 </div>
@@ -142,11 +155,13 @@ Certificate in GIS <i class="fa fa-globe-americas"></i></p>
 <p>N/A</p>
 <p>2021</p>
 <p><strong>Stringham O</strong>, Moncayo S, Hill K, Toomes A, Ross J, Mitchell L, Cassey P</p>
-<!-- ### Reptile smuggling is predicted by trends in the legal exotic pet trade -->
-<!-- Conservation Letters -->
-<!-- N/A -->
-<!-- 2021 -->
-<!-- **Stringham O**, García-Díaz P, Toomes A, Ross J, Mitchell L, Cassey P -->
+</div>
+<div id="reptile-smuggling-is-predicted-by-trends-in-the-legal-exotic-pet-trade" class="section level3">
+<h3>Reptile smuggling is predicted by trends in the legal exotic pet trade</h3>
+<p>Conservation Letters <a href="https://doi.org/10.1111/conl.12833" class="uri">https://doi.org/10.1111/conl.12833</a></p>
+<p>N/A</p>
+<p>2021</p>
+<p><strong>Stringham O</strong>, García-Díaz P, Toomes A, Ross J, Mitchell L, Cassey P</p>
 </div>
 <div id="a-guide-to-using-the-internet-to-study-the-wildlife-trade" class="section level3">
 <h3>A guide to using the internet to study the wildlife trade</h3>

@@ -10,8 +10,17 @@ output:
       - override.css
       - resume # default
 # uncomment this line to produce HTML and PDF in RStudio:
-#knit: pagedown::chrome_print
+# knit: pagedown::chrome_print
 ---
+
+
+<!-- load outside plots -->
+<!-- # ```{r message=TRUE, warning=TRUE, include=FALSE} -->
+<!-- # library(ggplot2) -->
+<!-- # skills_bar = readRDS('skills_bar.rds') -->
+<!-- # ``` -->
+
+
 
 <!-- Aside Section -->
 
@@ -25,28 +34,35 @@ output:
 
 <!-- Contact Info -->
 
-## Contact Info {#contact}
-
+## {#contact}
+<hr style="height:1px;border-width:0;color:gray;background-color:gray">
 -   <i class="fa fa-envelope"></i> [oliverstringham\@gmail.com](mailto:oliverstringham@gmail.com){.email}
--   <i class="fa fa-github"></i> [github.com/ocstringham](hhttps://github.com/ocstringham) <!-- - <i class="fa fa-phone"></i> +1 000-000-0000 -->
+-   <i class="fas fa-link"></i> [oliverstringham.com](https://oliverstringham.com/){.website}
+-   <i class="ai ai-google-scholar-square ai-1x"></i>
+[Google Scholar](https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&hl=en){.google-scholar}
+<!-- -   <i class="fa fa-github"></i> [GitHub](https://github.com/ocstringham){.github} -->
+<!-- - <i class="fa fa-phone"></i> +1 000-000-0000 -->
 -   For more information, please contact me via email.
 
 <!-- Skills -->
 
+## Languages {#languages}
+
+![Languages](skills_bar.png)
+
+<!--  ```{r echo=FALSE} -->
+<!--  skills_bar -->
+<!--  ``` -->
+
 ## Skills {#skills}
 
--   Experienced in statistical analysis, statistical learning models, and optimization methods.
-
--   Full experience with next generation sequencing data analysis.
-
--   Highly skilled in R, Bash, Perl, Python, LaTeX
-
+![Skills](skills_bar2.png)
 
 <!-- Disclaimer -->
 
 ## Disclaimer {#disclaimer}
 
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+<!-- This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown). -->
 
 Last updated on `r Sys.Date()`.
 
@@ -58,11 +74,11 @@ Last updated on `r Sys.Date()`.
 
 # Main
 
-## Oliver C. Stringham {#title}
+## Oliver C. Stringham {#title} 
 
-### Data Scientist & Scientific Researcher 
+### PhD, Scientific Researcher & Data Scientist
 
-GIS, SQL Databases, Machine Learning/Statistics
+GIS, Machine Learning/Statistics, SQL Databases, 
 R, python
 
 
@@ -95,8 +111,8 @@ New Jersey, USA
 
 2015 - 2018
 
-- Researched
-- Taught
+- Researched the online pet trade of reptiles and their invasion risk
+- Taught courses: General Biology, Ornithology, Plant Ecology
 
 ### GIS Research Assistant
 
@@ -107,7 +123,7 @@ New Jersey, USA
 2015
 
 ::: {.concise}
-- Performed spatial analyses for endangered species management programs.
+- Performed spatial analyses for endangered species programs.
 - Used python to automate GIS processes previously done manually. 
 :::
 
@@ -119,7 +135,7 @@ New York, USA
 
 2015
 
-- Performed spatial analysis of public access to waterways in the New York/New Jersey Metro area.
+- Performed spatial analysis of public access to waterways around NYC/NJ.
 
 
 
@@ -150,6 +166,7 @@ New Jersey, USA
 
 <!-- Publications -->
 
+
 ## Selected Publications {data-icon="newspaper"}
 
 ### Text classification to streamline online wildlife trade analyses
@@ -162,15 +179,15 @@ N/A
 
 **Stringham O**, Moncayo S, Hill K, Toomes A, Ross J, Mitchell L, Cassey P
 
-<!-- ### Reptile smuggling is predicted by trends in the legal exotic pet trade -->
+### Reptile smuggling is predicted by trends in the legal exotic pet trade
 
-<!-- Conservation Letters -->
+Conservation Letters https://doi.org/10.1111/conl.12833
 
-<!-- N/A -->
+N/A
 
-<!-- 2021 -->
+2021
 
-<!-- **Stringham O**, García-Díaz P, Toomes A, Ross J, Mitchell L, Cassey P -->
+**Stringham O**, García-Díaz P, Toomes A, Ross J, Mitchell L, Cassey P
 
 ### A guide to using the internet to study the wildlife trade
 
