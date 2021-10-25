@@ -40,7 +40,7 @@ skills_plot = function(df, font = 10){
 # langugages
 df = tribble(~skill, ~p, 
              "R", 90, 
-             "Python", 75,
+             "Python", 82,
              "SQL", 60
              ) 
 
@@ -65,9 +65,9 @@ ggsave(plot = last_plot(), filename = "skills_bar.png", dpi = 300,
 
 df2 =  tribble(~skill, ~p, 
                "GIS", 95, 
+               "Machine Learning", 83,
                "Web Scraping", 95,
-               "Machine Learning", 85,
-               "Data Dashboards", 83
+               "Data Visualization", 90
                
 ) 
 

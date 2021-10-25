@@ -62,9 +62,9 @@ output:
 
 ## Disclaimer {#disclaimer}
 
-<!-- This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown). -->
-
 Last updated on `r Sys.Date()`.
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
 
 
@@ -78,8 +78,7 @@ Last updated on `r Sys.Date()`.
 
 ### PhD, Scientific Researcher & Data Scientist
 
-GIS, Machine Learning/Statistics, SQL Databases, 
-R, python
+I apply scientific rigor and curiosity to solving data science problems. 
 
 
 
@@ -98,9 +97,9 @@ Adelaide, Australia
 
 ::: {.concise}
 -   Applied data science principles to researching wildlife trade
--   Coded over 80 webscrapers to collect data on wildlife trade
--   Created and maintained MySQL database of >2 million records for online wildlife trade
--   Supervised PhD students
+-   Coded over 80 webscrapers to collect data of online wildlife trade
+-   Created/maintained MySQL database of >2 million records for wildlife trade
+-   Created Flask web application for Australian gov't to query database
 :::
 
 ### PhD Researcher & Teaching Assistant
