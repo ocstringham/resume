@@ -10,7 +10,7 @@ output:
       - override.css
       - resume # default
 # uncomment this line to produce HTML and PDF in RStudio:
-# knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
 
 
@@ -190,7 +190,7 @@ N/A
 
 ### A guide to using the internet to study the wildlife trade
 
-Conservation Biology https://doi.org/10.1111/cobi.13675
+Conservation Biology https://doi.org/10.1111/cobi.13675 [(PDF)](https://www.researchgate.net/profile/Oliver-Stringham-2/publication/347366161_A_guide_to_using_the_Internet_to_monitor_and_quantify_the_wildlife_trade/links/6046912e299bf1e07865fd6a/A-guide-to-using-the-Internet-to-monitor-and-quantify-the-wildlife-trade.pdf)
 
 N/A
 
