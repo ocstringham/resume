@@ -10,7 +10,7 @@ output:
       - override.css
       - resume # default
 # uncomment this line to produce HTML and PDF in RStudio:
-knit: pagedown::chrome_print
+# knit: pagedown::chrome_print
 ---
 
 
@@ -134,7 +134,7 @@ New York, USA
 
 2015
 
-- Performed spatial analysis of public access to waterways around NYC/NJ.
+- Performed spatial analyses regarding public access to waterways in NYC/NJ.
 
 
 
