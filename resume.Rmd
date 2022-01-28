@@ -25,6 +25,7 @@ output:
 <!-- Aside Section -->
 
 # Aside
+================================================================================
 
 ::: profile-pic
 ![Oliver C. Stringham](IMG_7351c2.jpg){width=85%;}
@@ -34,29 +35,52 @@ output:
 
 <!-- Contact Info -->
 
+<!-- js for upwork icon -->
+<script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+
 ## {#contact}
-<hr style="height:1px;border-width:0;color:gray;background-color:gray">
+<!-- <hr style="height:1px;border-width:0;color:gray;background-color:gray"> -->
+
 -   <i class="fa fa-envelope"></i> [oliverstringham\@gmail.com](mailto:oliverstringham@gmail.com){.email}
+
 -   <i class="fas fa-link"></i> [oliverstringham.com](https://oliverstringham.com/){.website}
+
+-   <i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/oliver-c-stringham/){.linkedin}
+
+-   <span class="iconify" data-icon="simple-icons:upwork"></span>
+[UpWork](https://www.upwork.com/freelancers/~01a8aca4a8c8b4d38a){.upwork}
+
 -   <i class="ai ai-google-scholar-square ai-1x"></i>
 [Google Scholar](https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&hl=en){.google-scholar}
-<!-- -   <i class="fa fa-github"></i> [GitHub](https://github.com/ocstringham){.github} -->
+
+-   <i class="fa fa-github"></i> 
+[GitHub](https://github.com/ocstringham){.github}
+
 <!-- - <i class="fa fa-phone"></i> +1 000-000-0000 -->
 -   For more information, please contact me via email.
 
 <!-- Skills -->
 
-## Languages {#languages}
+<i class="fa fa-code"></i> Programming {#skills}
+--------------------------------------------------------------------------------
 
-![Languages](skills_bar.png)
 
-<!--  ```{r echo=FALSE} -->
-<!--  skills_bar -->
-<!--  ``` -->
+-   R / tidyverse
+-   Python / pandas / Flask
+-   SQL / PostgreSQL / MySQL
+-   HTML / CSS / Javascript
+-   git / GitHub
 
-## Skills {#skills}
 
-![Skills](skills_bar2.png)
+<i class="fas fa-chart-pie"></i> Data analysis {#skills}
+--------------------------------------------------------------------------------
+
+- Machine Learning: scikit-learn / tidymodels
+- Regression
+- Text Classification
+- Geospatial Analysis (sf, geopandas, PostGIS)
+- Data Visualization (ggplot2, seaborn)
+
 
 <!-- Disclaimer -->
 
@@ -87,6 +111,20 @@ I apply scientific rigor and curiosity to solving data science problems.
 
 ## Professional Experience {data-icon="suitcase"}
 
+### Data Scientist
+
+Freelance (UpWork & Contract Work)
+
+USA & Australia
+
+2020 - present
+
+- Machine Learning models to predict daily number of orders for retail 
+- Spatial optimization to determine zones for delivery trucks
+- Spatial clustering methods (unsupervised) to categorize property evaluation
+- Quantitative analysis of country-level deforestation rates from spatial data
+- Global analysis using raster data of protected areas
+
 ### Postdoctoral Research Associate
 
 The University of Adelaide
@@ -95,12 +133,13 @@ Adelaide, Australia
 
 2019 - present
 
-::: {.concise}
 -   Applied data science principles to researching wildlife trade
--   Coded over 80 webscrapers to collect data of online wildlife trade
--   Created/maintained MySQL database of >2 million records for wildlife trade
--   Created Flask web application for Australian gov't to query database
-:::
+    -   Coded over 80 webscrapers to collect data of online wildlife trade
+    -   Created/maintained MySQL database of >2 million records for wildlife trade
+    -   Created Flask web application for Australian gov't to query database
+-   Communicated results in reports, papers, and talks
+-   Supervised and lead a team of skilled professionals
+
 
 ### PhD Researcher & Teaching Assistant
 
@@ -112,8 +151,9 @@ New Jersey, USA
 
 - Researched the online pet trade of reptiles and their invasion risk
 - Taught courses: General Biology, Ornithology, Plant Ecology
+- Worked in an interdisciplinary international team of scientists
 
-### GIS Research Assistant
+### Geospatial (GIS) Technician
 
 New Jersey Depart. of Fish & Wildlife
 
@@ -121,12 +161,11 @@ New Jersey, USA
 
 2015
 
-::: {.concise}
 - Performed spatial analyses for endangered species programs.
 - Used python to automate GIS processes previously done manually. 
-:::
 
-### GIS Research Assistant
+
+### Geospatial (GIS) Analyst
 
 Harbor & Estuary Program, Hudson River Foundation
 
@@ -155,7 +194,7 @@ New Jersey, USA
 
 BS in Environmental Science <br>
 <!-- BS in Ecology, Evolution, & Natural Resources <br> -->
-Certificate in GIS <i class="fa fa-globe-americas"></i>
+Certificate in GIS (Geographic Information Systems) <i class="fa fa-globe-americas"></i>
 
 New Jersey, USA
 
@@ -166,36 +205,34 @@ New Jersey, USA
 <!-- Publications -->
 
 
-## Selected Publications {data-icon="newspaper"}
+## Technical Papers {data-icon="newspaper"}
 
 ### Text classification to streamline online wildlife trade analyses
 
-PLOS ONE https://doi.org/10.1371/journal.pone.0254007
+PLOS ONE 
 
 N/A
 
 2021
 
-**Stringham O**, Moncayo S, Hill K, Toomes A, Ross J, Mitchell L, Cassey P
+https://doi.org/10.1371/journal.pone.0254007
 
-### Reptile smuggling is predicted by trends in the legal exotic pet trade
-
-Conservation Letters https://doi.org/10.1111/conl.12833
-
-N/A
-
-2021
-
-**Stringham O**, García-Díaz P, Toomes A, Ross J, Mitchell L, Cassey P
 
 ### A guide to using the internet to study the wildlife trade
 
-Conservation Biology https://doi.org/10.1111/cobi.13675 [(PDF)](https://www.researchgate.net/profile/Oliver-Stringham-2/publication/347366161_A_guide_to_using_the_Internet_to_monitor_and_quantify_the_wildlife_trade/links/6046912e299bf1e07865fd6a/A-guide-to-using-the-Internet-to-monitor-and-quantify-the-wildlife-trade.pdf)
+Conservation Biology 
 
 N/A
 
 2020
 
-**Stringham O**, Toomes A, Kanishka A, Heinrich S, Ross J, Mitchell L, Cassey P
+https://doi.org/10.1111/cobi.13675 [(PDF)](https://www.researchgate.net/profile/Oliver-Stringham-2/publication/347366161_A_guide_to_using_the_Internet_to_monitor_and_quantify_the_wildlife_trade/links/6046912e299bf1e07865fd6a/A-guide-to-using-the-Internet-to-monitor-and-quantify-the-wildlife-trade.pdf)
 
 
+### 18 scientific papers, >200 citations
+
+[Google Scholar Profile](https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&hl=en)
+
+N/A
+
+N/A

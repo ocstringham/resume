@@ -48,6 +48,10 @@ div#aside{
   margin-top: -8%; /*  Move entire aside up */
 }
 
+div#contact > p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 /* Make Picture rounded */
 div.profile-pic > p > img{
@@ -64,10 +68,10 @@ div#disclaimer {
 
 
 /* align bar plots */
-div#skills, div#languages {
+/* div#skills, div#languages {
   position: relative;
   left: 0px;
-}
+} */
 
 
 /* div#title > h1 {text-transform: capitalize;} */
