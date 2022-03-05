@@ -1,0 +1,3 @@
+- Global analysis using raster data of protected areas
+- Spatial clustering methods (unsupervised) to categorize property evaluation
+Text Classification

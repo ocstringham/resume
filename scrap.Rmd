@@ -1,0 +1,16 @@
+---
+title: "scrap"
+author: "Oliver C. Stringham"
+date: "1/17/2022"
+output: html_document
+---
+
+### Reptile smuggling is predicted by trends in the legal exotic pet trade
+
+Conservation Letters https://doi.org/10.1111/conl.12833
+
+N/A
+
+2021
+
+**Stringham O**, García-Díaz P, Toomes A, Ross J, Mitchell L, Cassey P
