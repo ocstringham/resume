@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: false
+    self_contained: true
     css:
       - override.css
       - resume # default
@@ -68,18 +68,19 @@ output:
 -   R / tidyverse
 -   Python / pandas / Flask
 -   SQL / PostgreSQL / MySQL
--   HTML / CSS / Javascript
 -   git / GitHub
+-   HTML / CSS / Javascript
 
 
 <i class="fas fa-chart-pie"></i> Data analysis {#skills}
 --------------------------------------------------------------------------------
 
-- Machine Learning: scikit-learn / tidymodels
-- Regression
-- Text Classification
-- Geospatial Analysis (sf, geopandas, PostGIS)
-- Data Visualization (ggplot2, seaborn)
+- Machine Learning, Regression:<br>
+<i style="margin-left: 20px;">scikit-learn / tidymodels</i>
+- Geospatial Analysis:<br>
+<i style="margin-left: 20px;">sf / geopandas / PostGIS</i>
+- Data Visualization:<br>
+<i style="margin-left: 20px;">ggplot2 / seaborn</i>
 
 
 <!-- Disclaimer -->
@@ -100,7 +101,7 @@ This resume was made with the R package [**pagedown**](https://github.com/rstudi
 
 ## Oliver C. Stringham {#title} 
 
-### PhD, Scientific Researcher & Data Scientist
+### PhD, Data Scientist & Scientific Researcher
 
 I apply scientific rigor and curiosity to solving data science problems. 
 
@@ -119,13 +120,12 @@ USA & Australia
 
 2020 - present
 
-- Machine Learning models to predict daily number of orders for retail 
+- Machine Learning models to predict daily number of orders for retail company
 - Spatial optimization to determine zones for delivery trucks
-- Spatial clustering methods (unsupervised) to categorize property evaluation
+- Spatial clustering methods to categorize property evaluation
 - Quantitative analysis of country-level deforestation rates from spatial data
-- Global analysis using raster data of protected areas
 
-### Postdoctoral Research Associate
+### Research Associate (Postdoctoral)
 
 The University of Adelaide
 
@@ -134,9 +134,10 @@ Adelaide, Australia
 2019 - present
 
 -   Applied data science principles to researching wildlife trade
-    -   Coded over 80 webscrapers to collect data of online wildlife trade
-    -   Created/maintained MySQL database of >2 million records for wildlife trade
-    -   Created Flask web application for Australian gov't to query database
+-   Coded over 80 webscrapers to collect data of online wildlife trade
+-   Created/maintained MySQL database of >6 million records for wildlife trade
+-   Machine learning tools (text classification) to process online data
+-   Created web application with python (Flask) for Australian gov't
 -   Communicated results in reports, papers, and talks
 -   Supervised and lead a team of skilled professionals
 
@@ -161,8 +162,8 @@ New Jersey, USA
 
 2015
 
-- Performed spatial analyses for endangered species programs.
-- Used python to automate GIS processes previously done manually. 
+- Performed geospatial analyses for endangered species programs
+- Used python to automate geospatial processes previously done manually
 
 
 ### Geospatial (GIS) Analyst
@@ -173,7 +174,7 @@ New York, USA
 
 2015
 
-- Performed spatial analyses regarding public access to waterways in NYC/NJ.
+- Performed spatial analyses regarding public access to waterways in NYC/NJ
 
 
 
@@ -229,7 +230,7 @@ N/A
 https://doi.org/10.1111/cobi.13675 [(PDF)](https://www.researchgate.net/profile/Oliver-Stringham-2/publication/347366161_A_guide_to_using_the_Internet_to_monitor_and_quantify_the_wildlife_trade/links/6046912e299bf1e07865fd6a/A-guide-to-using-the-Internet-to-monitor-and-quantify-the-wildlife-trade.pdf)
 
 
-### 18 scientific papers, >200 citations
+### 19 scientific papers, >200 citations
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&hl=en)
 

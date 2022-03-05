@@ -48,7 +48,7 @@ div#aside{
   margin-top: -8%; /*  Move entire aside up */
 }
 
-div#contact > p{
+div#contact > ul > li > p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
