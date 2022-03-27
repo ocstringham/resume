@@ -75,7 +75,7 @@ output:
 <i class="fas fa-chart-pie"></i> Data analysis {#skills}
 --------------------------------------------------------------------------------
 
-- Machine Learning, Regression:<br>
+- Machine Learning, Regression, Classification:<br>
 <i style="margin-left: 20px;">scikit-learn / tidymodels</i>
 - Geospatial Analysis:<br>
 <i style="margin-left: 20px;">sf / geopandas / PostGIS</i>
