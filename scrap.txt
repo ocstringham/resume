@@ -1,3 +1,9 @@
 - Global analysis using raster data of protected areas
 - Spatial clustering methods (unsupervised) to categorize property evaluation
 Text Classification
+
+ (Until June 2022)
+ (June 2022)
+ 
+ -   <i class="fa fa-globe-americas"></i> Remote & Australia <p>
+-   <i class="fa fa-globe-americas"></i> New York Metropolitan Area 
