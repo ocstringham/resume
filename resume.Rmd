@@ -35,11 +35,22 @@ output:
 
 <!-- Contact Info -->
 
+
+
 <!-- js for upwork icon -->
 <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
 
 ## {#contact}
 <!-- <hr style="height:1px;border-width:0;color:gray;background-color:gray"> -->
+
+-   <i class="fa fa-globe-asia"></i> Remote & Australia 
+-   <i class="fa fa-globe-americas"></i> New York City (June 2022)
+-   <i class="fa fa-phone"></i> +1 201 421 1761 (US)
+-   <i class="fa fa-phone"></i> +61 457 461 356 (Australia)
+
+<!-- <hr style="margin-top:2px;margin-bottom:2px;height:0px;border-width:0;color:gray;background-color:gray">  -->
+<!-- <br> -->
+<br>
 
 -   <i class="fa fa-envelope"></i> [oliverstringham\@gmail.com](mailto:oliverstringham@gmail.com){.email}
 
@@ -57,7 +68,7 @@ output:
 [GitHub](https://github.com/ocstringham){.github}
 
 <!-- - <i class="fa fa-phone"></i> +1 000-000-0000 -->
--   For more information, please contact me via email.
+<!-- -   For more information, please contact me via email. -->
 
 <!-- Skills -->
 
