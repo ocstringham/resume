@@ -43,14 +43,19 @@ h2, h3 {
 /* Adjust Aside so it fits and centers properly */
 div#aside{
   position: relative;
-  left: -5px;
+  left: -6px;
   width: 220px;
   margin-top: -8%; /*  Move entire aside up */
 }
 
+
 div#contact > ul > li > p {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+div#contact {
+  margin-top: 10px;
 }
 
 /* Make Picture rounded */
@@ -58,6 +63,10 @@ div.profile-pic > p > img{
   border-radius: 25%;
 }
 
+/* move text closer to image */
+div.profile-pic > p {
+  margin-bottom: 0px;
+}
 
 /* Move disclaimer down */
 div#disclaimer {
