@@ -10,7 +10,7 @@ output:
       - override.css
       - resume # default
 # uncomment this line to produce HTML and PDF in RStudio:
-# knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
 
 
@@ -43,14 +43,12 @@ output:
 ## {#contact}
 <!-- <hr style="height:1px;border-width:0;color:gray;background-color:gray"> -->
 
--   <i class="fa fa-globe-asia"></i> Remote & Australia 
--   <i class="fa fa-globe-americas"></i> New York City (June 2022)
--   <i class="fa fa-phone"></i> +1 201 421 1761 (US)
--   <i class="fa fa-phone"></i> +61 457 461 356 (Australia)
+-   <i class="fa fa-globe-americas"></i> New York City
+-   <i class="fa fa-phone"></i> +1 201 421 1761
 
 <!-- <hr style="margin-top:2px;margin-bottom:2px;height:0px;border-width:0;color:gray;background-color:gray">  -->
 <!-- <br> -->
-<br>
+<!-- <br> -->
 
 -   <i class="fa fa-envelope"></i> [oliverstringham\@gmail.com](mailto:oliverstringham@gmail.com){.email}
 
@@ -91,7 +89,7 @@ output:
 - Geospatial Analysis:<br>
 <i style="margin-left: 20px;">sf / geopandas / PostGIS</i>
 - Data Visualization:<br>
-<i style="margin-left: 20px;">ggplot2 / seaborn</i>
+<i style="margin-left: 20px;">ggplot2 / seaborn / JS</i>
 
 
 <!-- Disclaimer -->
@@ -114,7 +112,7 @@ This resume was made with the R package [**pagedown**](https://github.com/rstudi
 
 ### PhD, Data Scientist & Scientific Researcher
 
-I apply scientific rigor and curiosity to solving data science problems. 
+I apply scientific rigor and curiosity to solving data science problems. I use data science tools including statistics, machine learning, natural language processing, and geospatial analyses to answer questions about underlying systems.
 
 
 
@@ -122,6 +120,19 @@ I apply scientific rigor and curiosity to solving data science problems.
 
 
 ## Professional Experience {data-icon="suitcase"}
+
+
+### Senior Project Administrator
+
+Rutgers University
+
+New Jersey, USA
+
+2022 - present
+
+- Synthesize impacts of the Institute of Earth, Ocean, and Atmospheric Sciences using data science techniques including data acquisition, cleaning, and visualization.
+- Gather and produce compelling data visualizations for various climate change related variables for New Jersey. 
+
 
 ### Data Scientist
 
@@ -142,7 +153,7 @@ The University of Adelaide
 
 Adelaide, Australia
 
-2019 - present
+2019 - 2022
 
 -   Applied data science principles to researching wildlife trade
 -   Coded over 80 webscrapers to collect data of online wildlife trade
@@ -241,7 +252,7 @@ N/A
 https://doi.org/10.1111/cobi.13675 [(PDF)](https://www.researchgate.net/profile/Oliver-Stringham-2/publication/347366161_A_guide_to_using_the_Internet_to_monitor_and_quantify_the_wildlife_trade/links/6046912e299bf1e07865fd6a/A-guide-to-using-the-Internet-to-monitor-and-quantify-the-wildlife-trade.pdf)
 
 
-### 19 scientific papers, >200 citations
+### 20 scientific papers, ~300 citations
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&hl=en)
 
