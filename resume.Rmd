@@ -43,7 +43,7 @@ knit: pagedown::chrome_print
 ## {#contact}
 <!-- <hr style="height:1px;border-width:0;color:gray;background-color:gray"> -->
 
--   <i class="fa fa-globe-americas"></i> New York City
+-   <i class="fa fa-globe-americas"></i> Jersey City, New Jersey
 -   <i class="fa fa-phone"></i> +1 201 421 1761
 
 <!-- <hr style="margin-top:2px;margin-bottom:2px;height:0px;border-width:0;color:gray;background-color:gray">  -->
@@ -84,7 +84,7 @@ knit: pagedown::chrome_print
 <i class="fas fa-chart-pie"></i> Data analysis {#skills}
 --------------------------------------------------------------------------------
 
-- Machine Learning, Regression, Classification:<br>
+- Machine Learning, Regression:<br>
 <i style="margin-left: 20px;">scikit-learn / tidymodels</i>
 - Geospatial Analysis:<br>
 <i style="margin-left: 20px;">sf / geopandas / PostGIS</i>
@@ -110,93 +110,9 @@ This resume was made with the R package [**pagedown**](https://github.com/rstudi
 
 ## Oliver C. Stringham {#title} 
 
-### PhD, Data Scientist & Scientific Researcher
+### PhD, Scientific Researcher & Data Scientist
 
-I apply scientific rigor and curiosity to solving data science problems. I use data science tools including statistics, machine learning, natural language processing, and geospatial analyses to answer questions about underlying systems.
-
-
-
-<!-- Professional Experience -->
-
-
-## Professional Experience {data-icon="suitcase"}
-
-
-### Senior Project Administrator
-
-Rutgers University
-
-New Jersey, USA
-
-2022 - present
-
-- Synthesize impacts of the Institute of Earth, Ocean, and Atmospheric Sciences using data science techniques including data acquisition, cleaning, and visualization.
-- Gather and produce compelling data visualizations for various climate change related variables for New Jersey. 
-
-
-### Data Scientist
-
-Freelance (UpWork & Contract Work)
-
-USA & Australia
-
-2020 - present
-
-- Machine Learning models to predict daily number of orders for retail company
-- Spatial optimization to determine zones for delivery trucks
-- Spatial clustering methods to categorize property evaluation
-- Quantitative analysis of country-level deforestation rates from spatial data
-
-### Research Associate (Postdoctoral)
-
-The University of Adelaide
-
-Adelaide, Australia
-
-2019 - 2022
-
--   Applied data science principles to researching wildlife trade
--   Coded over 80 webscrapers to collect data of online wildlife trade
--   Created/maintained MySQL database of >6 million records for wildlife trade
--   Machine learning tools (text classification) to process online data
--   Created web application with python (Flask) for Australian gov't
--   Communicated results in reports, papers, and talks
--   Supervised and lead a team of skilled professionals
-
-
-### PhD Researcher & Teaching Assistant
-
-Rutgers University
-
-New Jersey, USA
-
-2015 - 2018
-
-- Researched the online pet trade of reptiles and their invasion risk
-- Taught courses: General Biology, Ornithology, Plant Ecology
-- Worked in an interdisciplinary international team of scientists
-
-### Geospatial (GIS) Technician
-
-New Jersey Depart. of Fish & Wildlife
-
-New Jersey, USA
-
-2015
-
-- Performed geospatial analyses for endangered species programs
-- Used python to automate geospatial processes previously done manually
-
-
-### Geospatial (GIS) Analyst
-
-Harbor & Estuary Program, Hudson River Foundation
-
-New York, USA
-
-2015
-
-- Performed spatial analyses regarding public access to waterways in NYC/NJ
+I apply scientific rigor and curiosity to solve real-world problems. I use data science tools including statistics, machine learning, natural language processing, and geospatial analyses to answer questions about underlying systems.
 
 
 
@@ -216,7 +132,7 @@ New Jersey, USA
 ### Rutgers University
 
 BS in Environmental Science <br>
-<!-- BS in Ecology, Evolution, & Natural Resources <br> -->
+BS in Ecology, Evolution, & Natural Resources <br>
 Certificate in GIS (Geographic Information Systems) <i class="fa fa-globe-americas"></i>
 
 New Jersey, USA
@@ -225,10 +141,104 @@ New Jersey, USA
 
 
 
+<!-- Professional Experience -->
+
+
+## Professional Experience {data-icon="suitcase"}
+
+
+### Senior Project Administrator
+
+Rutgers University
+
+New Jersey, USA
+
+2022-06 - present
+
+- Synthesize impacts of the Institute of Earth, Ocean, and Atmospheric Sciences using data science techniques including data acquisition, cleaning, and visualization.
+- Assist research labs with data and science needs, including applying statistical methods and writing papers. 
+
+
+### Data Scientist
+
+Freelancer (UpWork & Contract Work)
+
+USA & Australia
+
+2020-01 - present
+
+- Machine Learning models to predict daily number of orders for retail company
+- Spatial optimization to determine zones for delivery trucks
+- Spatial clustering methods to categorize property evaluation
+- Quantitative analysis of deforestation rates from spatial raster data
+
+### Research Associate (Postdoctoral)
+
+The University of Adelaide
+
+Adelaide, Australia
+
+2019-01 - 2022-06
+
+-   Applied data science principles to researching wildlife trade
+-   Coded over 80 webscrapers to collect data of online wildlife trade
+-   Created/maintained MySQL database of >6 million records for wildlife trade
+-   Machine learning tools (text classification) to process online data
+-   Created web application with python (Flask) for Australian gov't
+-   Communicated results in reports, papers, and talks
+-   Supervised and lead a team of skilled professionals
+
+
+### PhD Researcher & Teaching Assistant
+
+Rutgers University
+
+New Jersey, USA
+
+2015-09 - 2018-12
+
+- Researched the online pet trade of reptiles and their invasion risk
+- Taught courses: General Biology, Ornithology, Plant Ecology
+- Worked in an interdisciplinary international team of scientists
+
+### Geospatial (GIS) Technician
+
+New Jersey Depart. of Fish & Wildlife
+
+New Jersey, USA
+
+2015-01 - 2015-06
+
+- Performed geospatial analyses for endangered species programs
+- Used python to automate geospatial processes previously done manually
+
+
+### Geospatial (GIS) Analyst
+
+Harbor & Estuary Program, Hudson River Foundation
+
+New York, USA
+
+2015-01 - 2015-08
+
+- Performed spatial analyses regarding public access to waterways in NYC/NJ
+
+
+
 <!-- Publications -->
 
 
-## Technical Papers {data-icon="newspaper"}
+## Scientific Publications {data-icon="newspaper"}
+
+
+### 20 scientific papers, >300 citations
+
+[Google Scholar Profile](https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&hl=en)
+
+N/A
+
+N/A
+
 
 ### Text classification to streamline online wildlife trade analyses
 
@@ -239,6 +249,17 @@ N/A
 2021
 
 https://doi.org/10.1371/journal.pone.0254007
+
+
+### Dataset of seized wildlife and their intended uses
+
+Data in Brief
+
+N/A
+
+2021
+
+https://doi.org/10.1016/j.dib.2021.107531
 
 
 ### A guide to using the internet to study the wildlife trade
@@ -252,10 +273,13 @@ N/A
 https://doi.org/10.1111/cobi.13675 [(PDF)](https://www.researchgate.net/profile/Oliver-Stringham-2/publication/347366161_A_guide_to_using_the_Internet_to_monitor_and_quantify_the_wildlife_trade/links/6046912e299bf1e07865fd6a/A-guide-to-using-the-Internet-to-monitor-and-quantify-the-wildlife-trade.pdf)
 
 
-### 20 scientific papers, ~300 citations
+### The dark web trades wildlife, but mostly for use as drugs
 
-[Google Scholar Profile](https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&hl=en)
-
-N/A
+<i>In review</i>
 
 N/A
+
+2022
+
+https://ecoevorxiv.org/repository/view/3731/ 
+
