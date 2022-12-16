@@ -40,3 +40,6 @@ vignettes/*.pdf
 .Renviron
 resume_files/*
 resume_pdfs/*
+
+references.rmd
+resume_with_refs.pdf
