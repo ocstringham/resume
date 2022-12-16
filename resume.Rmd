@@ -230,7 +230,7 @@ New York, USA
 ## Scientific Publications {data-icon="newspaper"}
 
 
-### 20 scientific papers, >300 citations
+### 20 peer-reviewed papers, >300 citations
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&hl=en)
 
@@ -281,5 +281,6 @@ N/A
 2022
 
 https://ecoevorxiv.org/repository/view/3731/ 
+
 
 
