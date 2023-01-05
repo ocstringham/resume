@@ -116,6 +116,30 @@ I apply scientific rigor and curiosity to solve real-world problems. I use data 
 
 
 
+<!-- Education -->
+
+## Education {data-icon="graduation-cap" data-concise="true"}
+
+### Rutgers University
+
+PhD in Ecology & Evolution
+
+New Jersey, USA
+
+2018
+
+
+### Rutgers University
+
+BS in Environmental Science <br>
+BS in Ecology, Evolution, & Natural Resources <br>
+Certificate in GIS (Geographic Information Systems) <i class="fa fa-globe-americas"></i>
+
+New Jersey, USA
+
+2014
+
+
 
 <!-- Professional Experience -->
 
@@ -131,7 +155,7 @@ New Jersey, USA
 
 2022-06 - present
 
-- Synthesize impacts of the using data science techniques including data acquisition, cleaning, and visualization.
+- Synthesize impacts of the Institute of Earth, Ocean, and Atmospheric Sciences using data science techniques including data acquisition, cleaning, and visualization.
 - Assist research labs with data and science needs, including applying statistical methods and writing papers. 
 
 
@@ -201,37 +225,13 @@ New York, USA
 
 
 
-<!-- Education -->
-
-## Education {data-icon="graduation-cap" data-concise="true"}
-
-### Rutgers University
-
-PhD in Ecology & Evolution
-
-New Jersey, USA
-
-2018
-
-
-### Rutgers University
-
-BS in Environmental Science <br>
-BS in Ecology, Evolution, & Natural Resources <br>
-Certificate in GIS (Geographic Information Systems) <i class="fa fa-globe-americas"></i>
-
-New Jersey, USA
-
-2014
-
-
 <!-- Publications -->
 
 
 ## Scientific Publications {data-icon="newspaper"}
 
 
-### 20 peer-reviewed papers, >350 citations
+### 20 peer-reviewed papers, >300 citations
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&hl=en)
 
@@ -242,43 +242,48 @@ N/A
 
 ### Text classification to streamline online wildlife trade analyses
 
-PLOS ONE | https://doi.org/10.1371/journal.pone.0254007
+PLOS ONE 
 
 N/A
 
 2021
 
+https://doi.org/10.1371/journal.pone.0254007
 
 
 ### Live reptile smuggling is predicted by trends in the legal exotic pet trade
 
-Conservation Letters | https://doi.org/10.1111/conl.12833
+Conservation Letters
 
 N/A
 
 2021
 
+https://doi.org/10.1111/conl.12833
 
 
-### Reptile smuggling is predicted by trends in the legal exotic pet trade
+### Pet problems: Biological and economic factors that influence the release of alien reptiles and amphibians by pet owners
 
-Conservation Letters | https://doi.org/10.1111/conl.12833
+Journal of Applied Ecology
 
 N/A
 
-2021
+2018
 
-
+https://doi.org/10.1111/1365-2664.13237
 
 
 ### A guide to using the internet to study the wildlife trade
 
-Conservation Biology | https://doi.org/10.1111/cobi.13675 [(PDF)](https://www.researchgate.net/profile/Oliver-Stringham-2/publication/347366161_A_guide_to_using_the_Internet_to_monitor_and_quantify_the_wildlife_trade/links/6046912e299bf1e07865fd6a/A-guide-to-using-the-Internet-to-monitor-and-quantify-the-wildlife-trade.pdf)
+Conservation Biology 
 
 N/A
 
 2020
 
+https://doi.org/10.1111/cobi.13675 [(PDF)](https://www.researchgate.net/profile/Oliver-Stringham-2/publication/347366161_A_guide_to_using_the_Internet_to_monitor_and_quantify_the_wildlife_trade/links/6046912e299bf1e07865fd6a/A-guide-to-using-the-Internet-to-monitor-and-quantify-the-wildlife-trade.pdf)
 
 
 
+```{r child = 'references.Rmd'}
+```
