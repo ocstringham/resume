@@ -1,0 +1,291 @@
+--- 
+title: "Oliver Stringham's resume"
+author: Oliver C. Stringham
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+    css:
+      - override.css
+      - resume # default
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+
+<!-- load outside plots -->
+<!-- # ```{r message=TRUE, warning=TRUE, include=FALSE} -->
+<!-- # library(ggplot2) -->
+<!-- # skills_bar = readRDS('skills_bar.rds') -->
+<!-- # ``` -->
+
+
+
+<!-- Aside Section -->
+
+# Aside
+================================================================================
+
+::: profile-pic
+![Oliver C. Stringham](IMG_7351c2.jpg){width=85%;}
+:::
+
+
+
+<!-- Contact Info -->
+
+
+
+<!-- js for upwork icon -->
+<script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+
+## {#contact}
+<!-- <hr style="height:1px;border-width:0;color:gray;background-color:gray"> -->
+```{r child = 'contact.Rmd'}
+```
+
+
+<!-- <hr style="margin-top:2px;margin-bottom:2px;height:0px;border-width:0;color:gray;background-color:gray">  -->
+<!-- <br> -->
+<!-- <br> -->
+
+-   <i class="fa fa-envelope"></i> [oliverstringham\@gmail.com](mailto:oliverstringham@gmail.com){.email}
+
+-   <i class="fas fa-link"></i> [oliverstringham.com](https://oliverstringham.com/){.website}
+
+-   <i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/oliver-c-stringham/){.linkedin}
+
+-   <span class="iconify" data-icon="simple-icons:upwork"></span>
+[UpWork](https://www.upwork.com/freelancers/~01a8aca4a8c8b4d38a){.upwork}
+
+-   <i class="ai ai-google-scholar-square ai-1x"></i>
+[Google Scholar](https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&hl=en){.google-scholar}
+
+-   <i class="fa fa-github"></i> 
+[GitHub](https://github.com/ocstringham){.github}
+
+<!-- - <i class="fa fa-phone"></i> +1 000-000-0000 -->
+<!-- -   For more information, please contact me via email. -->
+
+<!-- Skills -->
+
+<i class="fa fa-code"></i> Programming {#skills}
+--------------------------------------------------------------------------------
+
+
+-   R / tidyverse
+-   Python / pandas / Flask
+-   SQL / PostgreSQL / MySQL
+-   git / GitHub
+-   HTML / CSS / Javascript
+
+
+<i class="fas fa-chart-pie"></i> Data analysis {#skills}
+--------------------------------------------------------------------------------
+
+- Machine Learning, Regression:<br>
+<i style="margin-left: 20px;">scikit-learn / tidymodels</i>
+- Geospatial Analysis:<br>
+<i style="margin-left: 20px;">sf / geopandas / PostGIS</i>
+- Data Visualization:<br>
+<i style="margin-left: 20px;">ggplot2 / seaborn / JS</i>
+
+
+<!-- Disclaimer -->
+
+## Disclaimer {#disclaimer}
+
+Last updated on `r Sys.Date()`.
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+
+
+
+<!-- Main Section -->
+
+
+# Main
+
+## Oliver C. Stringham {#title} 
+
+### PhD, Scientific Researcher & Data Scientist
+
+I apply scientific rigor and curiosity to solve real-world problems. I use data science tools including statistics, machine learning, natural language processing, and geospatial analyses to answer questions about underlying systems.
+
+
+
+
+<!-- Professional Experience -->
+
+
+## Professional Experience {data-icon="suitcase"}
+
+
+### Senior Project Administrator
+
+Rutgers University
+
+New Jersey, USA
+
+2022-06 - present
+
+- Synthesize impacts of the using data science techniques including data acquisition, cleaning, and visualization.
+- Assist research labs with data and science needs, including applying statistical methods and writing papers. 
+
+
+### Data Scientist
+
+Freelancer (UpWork & Contract Work)
+
+USA & Australia
+
+2020-01 - present
+
+- Machine Learning models to predict daily number of orders for retail company
+- Spatial optimization to determine zones for delivery trucks
+- Spatial clustering methods to categorize property evaluation
+- Quantitative analysis of deforestation rates from spatial raster data
+
+### Research Associate (Postdoctoral)
+
+The University of Adelaide
+
+Adelaide, Australia
+
+2019-01 - 2022-06
+
+-   Applied data science principles to researching wildlife trade
+-   Coded over 80 webscrapers to collect data of online wildlife trade
+-   Created/maintained MySQL database of >6 million records for wildlife trade
+-   Machine learning tools (text classification) to process online data
+-   Created web application with python (Flask) for Australian gov't
+-   Communicated results in reports, papers, and talks
+-   Supervised and lead a team of skilled professionals
+
+
+### PhD Researcher & Teaching Assistant
+
+Rutgers University
+
+New Jersey, USA
+
+2015-09 - 2018-12
+
+- Researched the online pet trade of reptiles and their invasion risk
+- Taught courses: General Biology, Ornithology, Plant Ecology
+- Worked in an interdisciplinary international team of scientists
+
+### Geospatial (GIS) Technician
+
+New Jersey Depart. of Fish & Wildlife
+
+New Jersey, USA
+
+2015-01 - 2015-06
+
+- Performed geospatial analyses for endangered species programs
+- Used python to automate geospatial processes previously done manually
+
+
+### Geospatial (GIS) Analyst
+
+Harbor & Estuary Program, Hudson River Foundation
+
+New York, USA
+
+2015-01 - 2015-08
+
+- Performed spatial analyses regarding public access to waterways in NYC/NJ
+
+
+
+<!-- Education -->
+
+## Education {data-icon="graduation-cap" data-concise="true"}
+
+### Rutgers University
+
+PhD in Ecology & Evolution
+
+New Jersey, USA
+
+2018
+
+
+### Rutgers University
+
+BS in Environmental Science <br>
+BS in Ecology, Evolution, & Natural Resources <br>
+Certificate in GIS (Geographic Information Systems) <i class="fa fa-globe-americas"></i>
+
+New Jersey, USA
+
+2014
+
+
+<!-- Publications -->
+
+
+## Scientific Publications {data-icon="newspaper"}
+
+
+### 20 peer-reviewed papers, >350 citations
+
+[Google Scholar Profile](https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&hl=en)
+
+N/A
+
+N/A
+
+
+### Text classification to streamline online wildlife trade analyses
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0254007
+
+N/A
+
+2021
+
+
+
+### Live reptile smuggling is predicted by trends in the legal exotic pet trade
+
+Conservation Letters | https://doi.org/10.1111/conl.12833
+
+N/A
+
+2021
+
+
+
+### A guide to using the internet to study the wildlife trade
+
+Conservation Biology | https://doi.org/10.1111/cobi.13675 [(PDF)](https://www.researchgate.net/profile/Oliver-Stringham-2/publication/347366161_A_guide_to_using_the_Internet_to_monitor_and_quantify_the_wildlife_trade/links/6046912e299bf1e07865fd6a/A-guide-to-using-the-Internet-to-monitor-and-quantify-the-wildlife-trade.pdf)
+
+N/A
+
+2020
+
+## Languages {data-icon="language"}
+
+### English
+
+Fluent
+
+N/A
+
+N/A
+
+### Spanish
+
+Conversationally fluent
+
+N/A
+
+N/A
+
+
+
+
